@@ -3,6 +3,7 @@ import Profile from "./components/Profile";
 import userData from "./userData.json";
 import friends from "./friends.json";
 import FriendList from "./components/FriendList";
+// import css from "./components/FriendList.module.css";
 
 export default function App() {
   return (
@@ -16,5 +17,8 @@ export default function App() {
       />
       <FriendList friends={friends} />
     </>
+
+
   );
 }
+

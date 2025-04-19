@@ -1,12 +1,13 @@
 .friendCard {
-    display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 12px;
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 8px;
     margin-bottom: 8px;
     background-color: #f9f9f9;
+    padding: 10px;
   }
   
   .friendName {
