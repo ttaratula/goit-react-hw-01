@@ -1,0 +1,25 @@
+.transactionHistory {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+ .title, .items {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .title{
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .transactions:nth-child(even) {
+    background-color: rgb(179, 176, 176);
+  }
+  
+  .transactions:hover {
+    background-color: #f1f1f1;
+  }
+  
